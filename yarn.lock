@@ -2653,10 +2653,10 @@
     "call-bind" "^1.0.2"
     "get-intrinsic" "^1.1.1"
 
-"github-markdown-css@^5.1.0":
-  "integrity" "sha512-QLtORwHHtUHhPMHu7i4GKfP6Vx5CWZn+NKQXe+cBhslY1HEt0CTEkP4d/vSROKV0iIJSpl4UtlQ16AD8C6lMug=="
-  "resolved" "https://registry.npmjs.org/github-markdown-css/-/github-markdown-css-5.1.0.tgz"
-  "version" "5.1.0"
+"github-markdown-css@^4.0.0":
+  "integrity" "sha512-mH0bcIKv4XAN0mQVokfTdKo2OD5K8WJE9+lbMdM32/q0Ie5tXgVN/2o+zvToRMxSTUuiTRcLg5hzkFfOyBYreg=="
+  "resolved" "https://registry.npmjs.org/github-markdown-css/-/github-markdown-css-4.0.0.tgz"
+  "version" "4.0.0"
 
 "glob-parent@^5.1.2":
   "integrity" "sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow=="
