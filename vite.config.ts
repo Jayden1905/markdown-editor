@@ -1,8 +1,8 @@
-import react from '@vitejs/plugin-react';
-import { UserConfig, ConfigEnv } from 'vite';
-import { join } from 'path';
+import react from '@vitejs/plugin-react'
+import { UserConfig, ConfigEnv } from 'vite'
+import { join } from 'path'
 
-const srcRoot = join(__dirname, 'src');
+const srcRoot = join(__dirname, 'src')
 
 export default ({ command }: ConfigEnv): UserConfig => {
   // DEV
@@ -27,7 +27,7 @@ export default ({ command }: ConfigEnv): UserConfig => {
       optimizeDeps: {
         exclude: ['path']
       }
-    };
+    }
   }
   // PROD
   return {
@@ -50,5 +50,5 @@ export default ({ command }: ConfigEnv): UserConfig => {
     optimizeDeps: {
       exclude: ['path']
     }
-  };
-};
+  }
+}

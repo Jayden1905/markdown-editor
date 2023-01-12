@@ -32,6 +32,17 @@
     "lint:fix": "eslint . --ext js,jsx,ts,tsx --fix"
   },
   "dependencies": {
+    "@codemirror/commands": "^0.19.1",
+    "@codemirror/gutter": "^0.19.0",
+    "@codemirror/highlight": "^0.19.1",
+    "@codemirror/history": "^0.19.0",
+    "@codemirror/lang-javascript": "^0.19.1",
+    "@codemirror/lang-markdown": "^0.19.1",
+    "@codemirror/language": "^0.19.2",
+    "@codemirror/language-data": "^0.19.0",
+    "@codemirror/matchbrackets": "^0.19.1",
+    "@codemirror/state": "^0.19.0",
+    "@codemirror/theme-one-dark": "^0.19.0",
     "@vitejs/plugin-react": "^1.2.0",
     "electron-is-dev": "^2.0.0",
     "react": "^17.0.2",

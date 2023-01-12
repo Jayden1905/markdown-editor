@@ -4,11 +4,16 @@
 @tailwind utilities;
 
 /* For AppBar */
+html,
+body {
+  background-color: transparent;
+}
+
 .draggable {
-    -webkit-user-select: none;
-    -webkit-app-region: drag;
-  }
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+}
 
 .undraggable {
-    -webkit-app-region: no-drag;
-  }
+  -webkit-app-region: no-drag;
+}
