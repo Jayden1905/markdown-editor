@@ -1,6 +1,7 @@
 import react from '@vitejs/plugin-react'
 import { UserConfig, ConfigEnv } from 'vite'
 import { join } from 'path'
+import { builtinModules } from 'module'
 
 const srcRoot = join(__dirname, 'src')
 
@@ -42,7 +43,9 @@ export default ({ command }: ConfigEnv): UserConfig => {
     build: {
       outDir: join(srcRoot, '/out'),
       emptyOutDir: true,
-      rollupOptions: {}
+      rollupOptions: {
+        external: [...builtinModules.filter((m) => m !== 'process' && m !== 'assert')]
+      }
     },
     server: {
       port: process.env.PORT === undefined ? 3000 : +process.env.PORT
