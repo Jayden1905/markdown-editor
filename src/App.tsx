@@ -4,7 +4,7 @@ import Preview from './components/preview'
 import { RootLayout } from './components/layouts/main'
 
 function App() {
-  const [doc, setDoc] = React.useState<string>('## Hello, world everyone!\n')
+  const [doc, setDoc] = React.useState<string>('# Hello, everyone!\n')
 
   const handleDocChange = React.useCallback((newDoc: string) => {
     setDoc(newDoc)
